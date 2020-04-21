@@ -1,7 +1,7 @@
 {
-  "name": "",
-  "email": "",
-  "phone": "",
+  "name": "Testing Name",
+  "email": "test@test.com",
+  "phone": "385 35 62568",
   "category": [
     {
       "id": "1262",
