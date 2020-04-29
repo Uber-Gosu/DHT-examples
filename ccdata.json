@@ -2,69 +2,82 @@
   "name": "Testing Name",
   "email": "test@test.com",
   "phone": "3853562568",
+  "selected_country": "HR",
   "category": [
     {
-      "id": "1262",
+      "id": "1111",
       "name": "Orders",
       "subjects": [
         {
-          "id": "4",
+          "id": "1111-1",
           "question": "I want to cancel my order",
-          "additional": "text_field",
-          "cardinality": "1",
-          "mandatory": "1",
-          "description": "<p>Please input your order number here</p>\r\n"
+          "fields": [
+            {
+              "type": "text_field",
+              "mandatory": true
+            },
+            {
+              "type": "text_field",
+              "mandatory": false
+            },
+            {
+              "type": "product_reference",
+              "mandatory": false
+            }
+          ],
+          "description": "Please input your order number here"
         },
         {
-          "id": "3",
-          "question": "I didn't receive an order confirmation email",
-          "additional": null,
-          "cardinality": null,
-          "mandatory": "0",
-          "description": null
-        },
-        {
-          "id": "4",
-          "question": "Question 4",
-          "additional": null,
-          "cardinality": "2",
-          "mandatory": "2",
-          "description": null
+          "id": "1111-2",
+          "question": "I placed an order, but I cannot find it under my account.",
+          "fields": [
+            {
+              "type": "text_field",
+              "mandatory": true
+            },
+            {
+              "type": "file_upload",
+              "mandatory": false
+            }
+          ],
+          "description": ""
         }
       ]
     },
     {
-      "id": "1263",
+      "id": "2222",
       "name": "Products",
       "subjects": [
         {
-          "id": "5",
-          "question": "I want more information on a certain product",
-          "additional": "product_reference",
-          "cardinality": "1",
-          "mandatory": "0",
-          "description": "<p>Please select the product you're interested in</p>\r\n"
+          "id": "2222-1",
+          "question": "The product I want to buy is out of stock. When will you be getting it back?",
+          "fields": [
+            {
+              "type": "product_reference",
+              "mandatory": true
+            }
+          ],
+          "description": "Please select the product you're interested in"
         },
         {
-          "id": "6",
+          "id": "2222-2",
           "question": "I want to know if my product is authentic",
-          "additional": "file_upload",
-          "cardinality": "2",
-          "mandatory": "1",
-          "description": "<p>Please upload a picture of the bottom of your device showing the serial number or the barcode, and a picture of the receipt or proof of purchase</p>\r\n"
-        },
-        {
-          "id": "7",
-          "question": "Question 7",
-          "additional": "file_upload",
-          "cardinality": "2",
-          "mandatory": "1",
-          "description": "And a picture of the receipt or proof of purchase"
+          "fields": [
+            {
+              "type": "file_upload",
+              "mandatory": true
+            },
+            {
+              "type": "file_upload",
+              "mandatory": true
+            }
+          ],
+          "description": "Please upload a picture of the bottom of your device showing the serial number or the barcode, and a picture of the receipt or proof of purchase"
         }
       ]
     },
     {
-      "id": "1261",
+      "id": "3333",
       "name": "test kategorija",
       "subjects": []
     }
@@ -328,7 +341,7 @@
     "ZM": "Zambia",
     "ZW": "Zimbabwe",
     "AX": "Åland Islands"
-  },  
+  },
   "products": [
     {
       "id": "3",
