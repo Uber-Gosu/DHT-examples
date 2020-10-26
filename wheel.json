@@ -1,0 +1,40 @@
+{
+  "user": "developer@foreo.com",
+  "prizes": [{
+      "id": 111111,
+      "name": "50% OFF cleansers",
+      "description": "Get cleansers on 50% OFF in next 24 hours!",
+      "chance": 1
+    },
+    {
+      "id": 222222,
+      "name": "20% OFF LUNA mini 3",
+      "description": "Get LUNA mini 3 on 20% OFF in next 24 hours!",
+      "chance": 15
+    },
+    {
+      "id": 333333,
+      "name": "33% OFF LUNA 3",
+      "description": "Get LUNA 3 on 33% OFF in next 24 hours!",
+      "chance": 5
+    },
+    {
+      "id": 444444,
+      "name": "10% OFF next cart",
+      "description": "Get 10% OFF on your next cart in next 24 hours!",
+      "chance": 20
+    },
+    {
+      "id": 555555,
+      "name": "8% OFF UFO mini 2",
+      "description": "Get 8% OFF on UFO mini 2 in next 24 hours!",
+      "chance": 7
+    },
+    {
+      "id": 666666,
+      "name": "5% OFF anything!",
+      "description": "Get 5% OFF on anything in next 24 hours!",
+      "chance": 52
+    }
+  ]
+}
