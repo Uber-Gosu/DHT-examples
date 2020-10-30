@@ -2,27 +2,27 @@
   "promotions": {
     "5415": {
       "free_shiping": false,
-      "probability": null,
+      "probability": "2",
       "promotion_id": "5415",
       "promotion_end_date": null,
-      "value_off": "20%",
-      "gwp": false
-    },
-    "5417": {
-      "free_shiping": "true",
-      "free_shiping_label": "Free Shipping",
-      "probability": "11",
-      "promotion_id": "5417",
-      "promotion_end_date": 1603982510,
       "value_off": "10%",
+      "gwp": false
+    },    
+    "5417": {
+      "free_shiping": false,
+      "probability": "4",
+      "promotion_id": "5417",
+      "promotion_end_date": null,
+      "value_off": "5%",
       "gwp": false
     },
     "5418": {
-      "free_shiping": false,
-      "probability": null,
+      "free_shiping": "true",
+      "free_shiping_label": "Free Shipping",
+      "probability": "2",
       "promotion_id": "5418",
-      "promotion_end_date": null,
-      "value_off": "35 Euro",
+      "promotion_end_date": 1603982510,
+      "value_off": null,
       "gwp": false
     }
   }
