@@ -2,7 +2,7 @@
   "promotions": {
     "5415": {
       "free_shiping": false,
-      "probability": "2",
+      "probability": null,
       "promotion_id": "5415",
       "promotion_end_date": null,
       "value_off": "10%",
