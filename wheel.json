@@ -1,29 +1,35 @@
 {
   "promotions": {
-    "5415": {
-      "free_shiping": false,
+    "5435": {
+      "free_shipping": false,
       "probability": null,
-      "promotion_id": "5415",
+      "promotion_id": "5435",
       "promotion_end_date": null,
-      "value_off": "10%",
-      "gwp": false
-    },    
-    "5417": {
-      "free_shiping": false,
-      "probability": "4",
-      "promotion_id": "5417",
-      "promotion_end_date": null,
-      "value_off": "5%",
+      "value_off": "20%",
       "gwp": false
     },
-    "5418": {
-      "free_shiping": "true",
-      "free_shiping_label": "Free Shipping",
+    "5436": {
+      "free_shipping": false,
       "probability": "2",
-      "promotion_id": "5418",
-      "promotion_end_date": 1603982510,
-      "value_off": null,
+      "promotion_id": "5436",
+      "promotion_end_date": null,
+      "value_off": "80%",
+      "gwp": false
+    },
+    "5437": {
+      "free_shipping": false,
+      "probability": "3",
+      "promotion_id": "5437",
+      "promotion_end_date": null,
+      "value_off": "15%",
       "gwp": false
     }
+  },
+  "copy": {
+    "cta_btn": "Spin to win!",
+    "won_title": "Congrats! \u003Cbr\u003E You won",
+    "won_message": "Your coupon code is on its way to your email inbox. You can use it from the \u003Cstrong\u003E20th of November until the 4th of December\u003C\/strong\u003E on FOREO.com. Enter the code during checkout to combine it with other Black Friday offers.",
+    "returning_title": "You already tried your luck!",
+    "returning_text": "You played and won once before. Everyone gets just one chance to spin the wheel but don\u2019t worry, our Black Friday offers are coming in abundance!"
   }
 }
