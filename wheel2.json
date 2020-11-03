@@ -1,6 +1,13 @@
 {
   "wheel_result": {
-    "coupon_code": "XF959NFP5o",
-    "value_off": "20%"
+    "coupon_code": "jbgZ37Dt",
+    "value_off": "80%"
+  },
+  "copy": {
+    "cta_btn": "Spin to win!",
+    "won_title": "Congrats! \u003Cbr\u003E You won",
+    "won_message": "Your coupon code is on its way to your email inbox. You can use it from the \u003Cstrong\u003E20th of November until the 4th of December\u003C\/strong\u003E on FOREO.com. Enter the code during checkout to combine it with other Black Friday offers.",
+    "returning_title": "You already tried your luck!",
+    "returning_text": "You played and won once before. Everyone gets just one chance to spin the wheel but don\u2019t worry, our Black Friday offers are coming in abundance!"
   }
 }
