@@ -2,7 +2,7 @@
   "data": {
     "type": "bundle",
     "is_multiple": false,
-    "attributes": {
+    "attributes": [{
       "id": 1020,
       "bundle": "default",
       "title": "The Diva",
@@ -187,6 +187,6 @@
       }],
       "variation_switcher_text": "Choose bundle",
       "render_type": "mix"
-    }
+    }]
   }
 }
