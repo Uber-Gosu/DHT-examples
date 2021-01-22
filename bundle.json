@@ -1,6 +1,7 @@
 {
   "data": {
     "type": "bundle",
+    "is_multiple": false,
     "attributes": {
       "id": 1020,
       "bundle": "default",
@@ -11,14 +12,13 @@
       "worksWith": null,
       "specialTag": null,
       "delivery_estimation": {
-        "date": "14 Jan 2021",
-        "country_name": "United States",
+        "date": "19 Jan 2021",
+        "country_name": "Germany",
         "text": "Expected delivery date for"
       },
       "variations": [{
         "id": 65,
-        "properties": {
-          {
+        "properties": [{
             "id": "61",
             "title": "UFO",
             "quantity": "1",
@@ -31,10 +31,25 @@
                   "label": "Pearl Pink"
                 },
                 "price": {
-                  "currency": "USD",
+                  "currency": "EUR",
                   "original": {
                     "number": "239",
-                    "formatted": "$ 239"
+                    "formatted": "€ 239"
+                  }
+                }
+              },
+              {
+                "id": "1539",
+                "properties": {
+                  "id": "color",
+                  "color": "#FC3595",
+                  "label": "Fuchsia"
+                },
+                "price": {
+                  "currency": "EUR",
+                  "original": {
+                    "number": "239",
+                    "formatted": "€ 239"
                   }
                 }
               },
@@ -46,10 +61,10 @@
                   "label": "Mint"
                 },
                 "price": {
-                  "currency": "USD",
+                  "currency": "EUR",
                   "original": {
                     "number": "239",
-                    "formatted": "$ 239"
+                    "formatted": "€ 239"
                   }
                 }
               }
@@ -68,15 +83,15 @@
                 "label": "Make My Day Mask x7"
               },
               "price": {
-                "currency": "USD",
+                "currency": "EUR",
                 "original": {
                   "number": "239",
-                  "formatted": "$ 239"
+                  "formatted": "€ 239"
                 }
               }
             }]
           },
-          "60__2": {
+          {
             "id": "60",
             "title": "Call It a Night Mask",
             "quantity": "5",
@@ -89,20 +104,20 @@
                 "label": "Call It a Night Mask x7"
               },
               "price": {
-                "currency": "USD",
+                "currency": "EUR",
                 "original": {
                   "number": "239",
-                  "formatted": "$ 239"
+                  "formatted": "€ 239"
                 }
               }
             }]
           }
-        },
+        ],
         "price": {
-          "currency": "USD",
+          "currency": "EUR",
           "original": {
             "number": "239",
-            "formatted": "$ 239"
+            "formatted": "€ 239"
           },
           "discounted": {
             "formatted": null,
@@ -112,36 +127,18 @@
               "text": null
             }
           },
-          "installments": {
-            "type": "afterpay_clearpay",
-            "value": {
-              "library": "lfi_afterpay/widget_source",
-              "installments": {
-                "#weight": 50,
-                "#markup": "<div class=\"afterpay__installments\"></div>",
-                "#attached": {
-                  "library": [
-                    "lfi_afterpay/lfi_widget"
-                  ],
-                  "drupalSettings": {
-                    "afterpay_currency": "USD",
-                    "afterpay_amount": 23900,
-                    "afterpay_locale": "en_US",
-                    "afterpay_show_logo": true,
-                    "upper_limit": false,
-                    "clearpay": ""
-                  }
-                }
-              }
-            }
-          },
-          "dach_vat": null
+          "installments": null,
+          "dach_vat": {
+            "text": "incl. VAT, excl.",
+            "url": "/taxonomy/term/244",
+            "href_txt": "shipment costs"
+          }
         },
         "images": [{
             "badge": {
               "discount_badge": null,
               "promo_badge": "https://assets.foreo.com/local/static/assets/15_2.png?9NPsUtpsGb5hZoHg9.kcS.2DhUCqSvrM",
-              "award_badge": "https://assets.foreo.com/local/static/image-block/2021-01/11_0.jpeg?QNVHPaOs5ea0dVrzAmw2vCcQO6TAMDHX"
+              "award_badge": null
             },
             "product_combo": [
               "1525",
@@ -155,7 +152,7 @@
             "badge": {
               "discount_badge": null,
               "promo_badge": "https://assets.foreo.com/local/static/assets/15_2.png?9NPsUtpsGb5hZoHg9.kcS.2DhUCqSvrM",
-              "award_badge": "https://assets.foreo.com/local/static/image-block/2021-01/11_0.jpeg?QNVHPaOs5ea0dVrzAmw2vCcQO6TAMDHX"
+              "award_badge": null
             },
             "product_combo": [
               "1539",
@@ -169,7 +166,7 @@
             "badge": {
               "discount_badge": null,
               "promo_badge": "https://assets.foreo.com/local/static/assets/15_2.png?9NPsUtpsGb5hZoHg9.kcS.2DhUCqSvrM",
-              "award_badge": "https://assets.foreo.com/local/static/image-block/2021-01/11_0.jpeg?QNVHPaOs5ea0dVrzAmw2vCcQO6TAMDHX"
+              "award_badge": null
             },
             "product_combo": [
               "1540",
@@ -185,7 +182,8 @@
           "title": "Buy",
           "disabled": false
         },
-        "contains": "<div class=\"ecommerce__heading-helper\"><span>Bundle contains: </span>UFO, 5x7 Make My Day Mask and 5x7 Call It a Night Mask</div>"
+        "contains": "<div class=\"ecommerce__heading-helper\"><span>Bundle contains: </span>UFO, 5x7 Make My Day Mask and 5x7 Call It a Night Mask</div>",
+        "perks": []
       }],
       "variation_switcher_text": "Choose bundle",
       "render_type": "mix"
